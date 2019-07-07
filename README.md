@@ -18,9 +18,11 @@ export GO111MODULE=on
 
 ### ChromeDriverのインストール
 ```bash
-wget https://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip
+wget https://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip -d ~/bin/
 ```
+
+※chromdriverのバージョンとchromeのバージョンを合わせること
 
 ### ビルド方法
 - 本プロジェクトのディレクトリに移動して、下記のコマンドを入力する。
